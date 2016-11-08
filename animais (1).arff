@@ -1,0 +1,40 @@
+@RELATION animais
+
+
+@ATTRIBUTE pele {couro, pena, pele, pelos, casca, escama}
+@ATTRIBUTE locomocao {nadadeiras, asas, patas}
+@ATTRIBUTE respiracao {pulmonar, branquial, cutanea, traqueal}
+@ATTRIBUTE habitat {aquatico, terrestre}
+@ATTRIBUTE classe {mamifero, peixe, ave, anfibio, inseto}
+
+@DATA
+couro,nadadeiras,pulmonar,aquatico,mamifero
+couro,nadadeiras,branquial,aquatico,peixe
+pena,asas, pulmonar,terrestre,ave
+pele,patas,cutanea,terrestre,anfibio
+pelos,patas,traqueal,terrestre,inseto
+casca,patas,traqueal,aquatico,peixe
+pena,asas,pulmonar,terrestre,ave
+pelos,patas,pulmonar,terrestre,mamifero
+escama,nadadeiras,branquial,aquatico,peixe
+couro,nadadeiras,cutanea,aquatico,anfibio
+pelos,patas,traqueal,terrestre,inseto
+casca,asas,pulmonar,aquatico,peixe
+pena,patas,cutanea,terrestre, inseto
+pelos,asas,pulmonar,aquatico,anfibio
+couro,nadadeiras,traqueal,aquatico,inseto
+pele,patas,branquial,aquatico,mamifero
+casca,nadadeiras,branquial,aquatico,inseto
+escama,patas,cutanea,terrestre,anfibio
+pena,asas,pulmonar,aquatico,ave
+escama,patas,pulmonar, aquatico,ave
+casca,nadadeiras,branquial,aquatico,inseto
+escama,nadadeiras,pulmonar,terrestre,anfibio
+pele,asas,cutanea,terrestre,ave
+pelos,asas,pulmonar,aquatico,inseto
+pele,patas,traqueal,terrestre,inseto
+escama,nadadeiras,branquial,terrestre,inseto
+casca,nadadeiras,traqueal,aquatico,mamifero
+pena,asas,pulmonar,aquatico,mamifero
+couro,nadadeiras,pulmonar,terrestre,anfibio
+pelos,patas,pulmonar,terrestre,anfibio
